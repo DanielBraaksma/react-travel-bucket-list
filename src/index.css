@@ -17,6 +17,7 @@ header {
   padding: 2em;
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
+  margin-bottom: 8em;
 }
 
 .logo {
@@ -87,4 +88,17 @@ a {
   .card-text {
     margin-left: 0;
   }
+
+  h1::before {
+   display: none;
+  }
+}
+
+hr {
+  width: 75%;
+  margin: 4em auto;
+}
+
+.main-container div:last-child hr {
+  display: none;
 }
