@@ -1,8 +1,22 @@
 import Navbar from "./components/Navbar";
+import Card from "./components/Card"
+import data from "./data.js"
 
 function App() {
+  const cards = data.map(item =>{
+    return <Card
+              key={item.title}
+              item={item}
+          />
+  })
+
   return (
-    <Navbar />
+    <div>
+      <Navbar />
+      <section>
+        {cards}
+      </section>
+    </div>
   );
 }
 
