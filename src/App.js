@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Card from "./components/Card"
 import data from "./data.js"
+import Footer from "./components/Footer"
 
 function App() {
   const cards = data.map(item =>{
@@ -16,6 +17,7 @@ function App() {
       <section className="main-container">
         {cards}
       </section>
+      <Footer />
     </div>
   );
 }
