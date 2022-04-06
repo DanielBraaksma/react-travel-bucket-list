@@ -58,6 +58,7 @@ h1::before {
 
 .card-text {
   margin-left: 1em;
+  max-width: 400px;
 }
 
 .goal-date {
@@ -100,7 +101,7 @@ a {
 }
 
 hr {
-  width: 75%;
+  width: 50%;
   margin: 4em auto;
 }
 
