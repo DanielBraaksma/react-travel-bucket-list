@@ -5,6 +5,7 @@
 
 body {
   margin: 0;
+  color: #2B283A;
 }
 
 header {
@@ -42,4 +43,48 @@ h1::before {
   bottom: 0;
   border: 1px solid rgba(0, 99, 99, 0.904);
 
+}
+
+.main-container {
+  max-width: 80%;
+  margin: 2em auto;
+}
+
+.card {
+  margin: 1em 0;
+  display: flex;
+}
+
+.card-text {
+  margin-left: 1em;
+}
+
+.card-img{
+  width: 220px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+
+}
+
+h3 {
+  display: inline-block;
+  margin-left: .5em;
+}
+
+a {
+  margin-left: 1em;
+  color: #918E9B;
+
+}
+
+@media screen and (max-width:675px) {
+  .card {
+    flex-direction: column;
+    margin-bottom: 4em;
+  }
+
+  .card-text {
+    margin-left: 0;
+  }
 }

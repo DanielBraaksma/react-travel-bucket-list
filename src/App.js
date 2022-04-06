@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <section>
+      <section className="main-container">
         {cards}
       </section>
     </div>
