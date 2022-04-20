@@ -1,13 +1,14 @@
 {
   "files": {
-    "main.css": "/github.io/react-travel-bucket-list/static/css/main.8b67a873.css",
-    "main.js": "/github.io/react-travel-bucket-list/static/js/main.1a440565.js",
-    "index.html": "/github.io/react-travel-bucket-list/index.html",
-    "main.8b67a873.css.map": "/github.io/react-travel-bucket-list/static/css/main.8b67a873.css.map",
-    "main.1a440565.js.map": "/github.io/react-travel-bucket-list/static/js/main.1a440565.js.map"
+    "main.css": "/react-travel-bucket-list/static/css/main.8b67a873.css",
+    "main.js": "/react-travel-bucket-list/static/js/main.a6d22761.js",
+    "static/media/world.png": "/react-travel-bucket-list/static/media/world.84346a94c96271f808e0.png",
+    "index.html": "/react-travel-bucket-list/index.html",
+    "main.8b67a873.css.map": "/react-travel-bucket-list/static/css/main.8b67a873.css.map",
+    "main.a6d22761.js.map": "/react-travel-bucket-list/static/js/main.a6d22761.js.map"
   },
   "entrypoints": [
     "static/css/main.8b67a873.css",
-    "static/js/main.1a440565.js"
+    "static/js/main.a6d22761.js"
   ]
 }
