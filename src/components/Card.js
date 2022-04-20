@@ -1,4 +1,5 @@
 import React from "react"
+import location from "../images/location.png"
 
 export default function Card(props) {
     console.log(props)
@@ -7,7 +8,7 @@ export default function Card(props) {
             <div className="card">
                 <img className="card-img" src={props.item.imageUrl} />
                 <div className="card-text">
-                    <img className="location-pin" src="./images/location.png" />
+                    <img className="location-pin" src={location} />
                     <h3>{props.item.location}</h3>
                     <a href={props.item.googleMapsUrl}>View on Google Maps</a>
                     <h2>{props.item.title}</h2>
